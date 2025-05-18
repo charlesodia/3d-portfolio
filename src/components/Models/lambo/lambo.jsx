@@ -5,7 +5,7 @@ import Lamborghini_aventador from "./Lamborghini_aventador.jsx";
 import {Room} from "../../HeroModels/Room.jsx";
 import HeroLights from "../../HeroModels/HeroLights.jsx";
 import Computer from "../contact/Computer.jsx";
-import {useMediaQuery} from "react-responsive";
+
 
 
 const Lambo = () => {

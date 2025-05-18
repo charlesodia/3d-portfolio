@@ -2,7 +2,7 @@ import React from 'react'
 import TitleHeader from "../components/TitleHeader.jsx";
 import { expCards } from "../constants/index.js";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
+
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lambo from "../components/Models/lambo/lambo.jsx";
 import TechIcon from "../components/Models/TechLogos/TechIcon.jsx";
