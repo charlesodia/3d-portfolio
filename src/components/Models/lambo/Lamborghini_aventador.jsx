@@ -10,8 +10,9 @@ Title: Lamborghini Aventador
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
-  const { nodes, materials } = useGLTF('/lamborghini_aventador.glb')
+
+export function Lamborghini_aventador(props) {
+  const { nodes, materials } = useGLTF('/public/models/lamborghini_aventador.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Body_Lamborginhi_base_phong_0.geometry} material={materials.Lamborginhi_base_phong} />
@@ -24,4 +25,6 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/lamborghini_aventador.glb')
+useGLTF.preload('/public/models/lamborghini_aventador.glb')
+
+export default Lamborghini_aventador;
