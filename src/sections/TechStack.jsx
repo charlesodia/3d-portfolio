@@ -27,7 +27,8 @@ const TechStack = () => {
                 title="My Preferred Tech Stack"
                 sub="🤝 The Skills I Bring to the Table"
                 />
-                <div className="tech-grid justify-center items-center flex-center">
+                <div className="tech-grid flex flex-col sm:flex-row justify-center items-center">
+                {/*<div className="tech-grid justify-center items-center flex-center">*/}
                     {techStackIcons.map((icon) => (
                         <div key={icon.name} className="card-border tech-card
                         overflow-hidden group xl:rounded-full rounded-lg">

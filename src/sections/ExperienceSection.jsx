@@ -64,7 +64,7 @@ const ExperienceSection = () => {
             </div>
 
             {/* Content and Lambo Model */}
-            <div className="flex flex-col md:flex-row mt-32 relative justify-center items-center gap-10">
+            <div className="flex flex-col md:flex-row mt-10 relative justify-center items-center gap-10">
 
                 {/* Text Content */}
                 <div className="w-full md:w-2/5 lg:w-2/6 border-5 border-gray-700 rounded-lg p-6 bg-gray-600 bg-opacity-10">
